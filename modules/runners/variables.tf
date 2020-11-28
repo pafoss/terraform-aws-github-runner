@@ -240,7 +240,7 @@ variable "create_service_linked_role_spot" {
 }
 
 variable "runner_iam_role_managed_policy_arns" {
-  description = "Attach AWS or customer-managed IAM policies (ARNs) to the runner IAM role"
+  description = "Attach AWS or customer-managed IAM policies (by ARN) to the runner IAM role"
   type        = list(string)
   default     = []
 }
